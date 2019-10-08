@@ -3,6 +3,6 @@
 
 // в первой версии библиотеки сложение - это тривиальная операция
 int add(int a, int b) {
-    printf("add_v1");
+    fprintf(stderr, "add_v1\n");
     return a + b;
 }
