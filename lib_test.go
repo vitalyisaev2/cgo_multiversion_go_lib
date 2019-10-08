@@ -7,5 +7,6 @@ import (
 )
 
 func TestAdd(t *testing.T) {
-	assert.Equal(t, 10, Add(5, 5))
+	// во второй версии библиотеки под сложениим скрывается умножение
+	assert.Equal(t, 25, Add(5, 5))
 }

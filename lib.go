@@ -1,7 +1,7 @@
 package cgomultiversion
 
-// #cgo LDFLAGS: -l:libcgomultiversion.so.1
-// #include <cgomultiversion_v1/lib.h>
+// #cgo LDFLAGS: -l:libcgomultiversion.so.2
+// #include <cgomultiversion_v2/lib.h>
 import "C"
 
 func Add(a, b int) int {
